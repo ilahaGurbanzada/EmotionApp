@@ -9,7 +9,7 @@ hf_token = os.getenv("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")
 classifier = pipeline(
     "text-classification",
     model="bhadresh-savani/bert-base-goemotions-ekman",
-    use_auth_token=hf_token
+    use_auth_token= "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"
 )
 
 text = st.text_area("Enter a tweet or comment:")
