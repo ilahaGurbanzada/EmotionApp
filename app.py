@@ -4,7 +4,7 @@ from transformers import pipeline
 
 st.title("Emotion Detection in Social Media Posts")
 
-hf_token = os.getenv("HF_TOKEN")
+hf_token = os.getenv("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")
 
 classifier = pipeline(
     "text-classification",
